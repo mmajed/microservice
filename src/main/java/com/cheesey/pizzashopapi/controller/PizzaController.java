@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PizzaController {
 	@RequestMapping(value = "/pizzas")
 	public String getpizzas() 	{
-		return "pizzas";
+		return "More Pizzas!!";
 	}
 
 }
